@@ -1,0 +1,19 @@
+.about-img {
+    padding: 20px 0;
+    width: 700px;
+}
+
+@media screen and (max-width: 720px) {
+    .about-img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-none {
+        display: none;
+    }
+    .about-img {
+        width: 300px;
+    }
+}
